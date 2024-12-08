@@ -56,6 +56,10 @@ A network is a collection of interconnected devices which we call "Hosts" (e.g.,
 - Routers operate at the network layer (Layer 3 - packets) and handle IP addresses , while switches operate at the data link layer (Layer 2 - frames) and handle MAC addresses.
 - Routers can connect to external networks, whereas switches work within a single network.
 
+**Routing Tables and MAC Tables**:
+- **Routing Tables**: Routers use routing tables to determine the best path for forwarding packets to their destination. These tables store information about network paths and associated metrics, enabling efficient inter-network communication.
+- **MAC Tables**: Switches maintain MAC tables to map device MAC addresses to specific switch ports. This mapping allows switches to forward data within a local network to the correct destination efficiently.
+
 <div align="right">
   <b><a href="#top">↥ back to top</a></b>
 </div>
